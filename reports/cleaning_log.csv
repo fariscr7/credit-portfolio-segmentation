@@ -1,0 +1,8 @@
+step,rows_affected,action,reason
+Drop text columns,1347681,"Dropped title, desc",Free text is out of scope; desc is 91% missing
+Remove duplicate rows,0,Dropped exact duplicates,Each loan must appear once
+Parse issue date,1347681,"issue_d -> issue_date, issue_year, issue_month",Text dates cannot be sorted or grouped by year
+Encode employment length,78188,Text -> years (0-10); 'NI' -> NaN plus a 0/1 flag,'NI' means no information: a hidden missing value
+Fix DTI placeholder,38,999 -> NaN,"999 is a code for 'unknown', not a real ratio"
+Fill missing zip code,1,NaN -> 'Unknown',Only one row; zip is not a model input
+Convert text labels to category,1347681,"purpose, home_ownership_n, addr_state, zip_code -> category",Less memory and faster grouping

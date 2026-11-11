@@ -1,0 +1,28 @@
+# --- Data: the raw CSV (~167 MB) is above GitHub's 100 MiB file limit ---
+# Keep the folders (via .gitkeep) but never commit the data files inside them.
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# --- Safety net: never commit ANY copy of the raw dataset, wherever it is ---
+**/loans_granting_model_dataset.csv
+
+# --- Virtual environment ---
+.venv/
+venv/
+
+# --- Python cache files ---
+__pycache__/
+*.py[cod]
+
+# --- Jupyter autosave checkpoints ---
+.ipynb_checkpoints/
+
+# --- Operating-system and editor clutter ---
+.DS_Store
+Thumbs.db
+.vscode/
+
+# --- Streamlit local secrets ---
+.streamlit/secrets.toml

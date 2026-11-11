@@ -1,0 +1,16 @@
+column,dtype,missing,missing_pct,unique_values,example,meaning,planned_role
+id,int64,0,0.0,1347681,68407277,Loan id (unique identifier),"Identifier - kept for traceability, never a clustering feature"
+issue_d,str,0,0.0,139,Dec-2015,"Month and year the loan was approved, e.g. Dec-2015",Time - issue year/month for trend analysis
+revenue,float64,0,0.0,65608,55000.0,Borrower's self-declared annual income (USD),Clustering feature (log-transformed)
+dti_n,float64,0,0.0,7068,5.91,Debt-to-income ratio excluding mortgage (%),Clustering feature
+loan_amnt,int64,0,0.0,1560,3600,Amount of credit requested (USD),Clustering feature
+fico_n,float64,0,0.0,48,677.0,FICO credit score (average of the low and high range),Clustering feature
+experience_c,int64,0,0.0,2,1,Binary flag: whether the borrower is new to Lending Club (coding direction not stated in the source docs),Excluded - almost constant (no information)
+emp_length,str,0,0.0,12,10+ years,Employment length; 'NI' means no information,Clustering feature (converted to years)
+purpose,str,0,0.0,14,debt_consolidation,Loan purpose category,Clustering feature (encoded)
+home_ownership_n,str,0,0.0,4,MORTGAGE,"Home ownership: MORTGAGE, RENT, OWN or OTHER",Clustering feature (encoded)
+addr_state,str,0,0.0,51,PA,US state of residence (2-letter code),Profiling only - geographic analysis after clustering
+zip_code,str,1,0.0,945,190xx,"First 3 digits of the residence zip code, e.g. 190xx",Excluded - too many values and sensitive location data
+Default,int64,0,0.0,2,0,"1 = defaulted (charged off), 0 = fully paid","Outcome - post-clustering analysis only, never clustered"
+title,str,16657,1.24,61451,(free text - not shown),Loan title written by the borrower (free text),"Dropped - free text, out of project scope"
+desc,str,1228582,91.16,109539,(free text - not shown),Loan description written by the borrower (free text),"Dropped - free text, 91% missing, out of project scope"
