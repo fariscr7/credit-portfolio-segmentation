@@ -30,6 +30,8 @@ python check_environment.py
 ```
 
 ## Project structure
+hsdjdjsdh
+
 
 ```
 credit-portfolio-segmentation/
