@@ -19,7 +19,9 @@ REQUIRED_LIBRARIES = {
     "matplotlib": "matplotlib",
     "seaborn": "seaborn",
     "sklearn": "scikit-learn",
-    "xgboost": "xgboost",
+    "scipy": "scipy",
+    "umap": "umap-learn",
+    "streamlit": "streamlit",
 }
 
 
