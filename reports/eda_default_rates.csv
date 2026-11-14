@@ -1,0 +1,116 @@
+feature,group,loans,defaults,default_rate,lift
+FICO score,<680,460605,116545,25.3,1.27
+FICO score,680-699,361910,77612,21.4,1.07
+FICO score,700-719,246591,42660,17.3,0.87
+FICO score,720-739,133283,18411,13.8,0.69
+FICO score,740-759,68308,7616,11.1,0.56
+FICO score,760+,76984,6405,8.3,0.42
+DTI (%),<10,245174,36388,14.8,0.74
+DTI (%),10-20,563230,100517,17.8,0.89
+DTI (%),20-30,410172,94646,23.1,1.15
+DTI (%),30-40,122297,35610,29.1,1.46
+DTI (%),40+,6770,2079,30.7,1.54
+Annual income,<40K,203248,47902,23.6,1.18
+Annual income,40-60K,350767,75993,21.7,1.08
+Annual income,60-80K,307289,62070,20.2,1.01
+Annual income,80-100K,197126,36484,18.5,0.93
+Annual income,100-150K,200193,33352,16.7,0.83
+Annual income,150K+,89058,13448,15.1,0.76
+Loan amount,<5K,133847,20777,15.5,0.78
+Loan amount,5-10K,323710,54088,16.7,0.84
+Loan amount,10-15K,313750,63993,20.4,1.02
+Loan amount,15-20K,214042,47368,22.1,1.11
+Loan amount,20-30K,252203,56346,22.3,1.12
+Loan amount,30K+,110129,26677,24.2,1.21
+purpose,car,14647,2153,14.7,0.74
+purpose,credit_card,295551,50040,16.9,0.85
+purpose,debt_consolidation,781206,165258,21.2,1.06
+purpose,educational,423,88,20.8,1.04
+purpose,home_improvement,87684,15570,17.8,0.89
+purpose,house,7294,1598,21.9,1.1
+purpose,major_purchase,29543,5496,18.6,0.93
+purpose,medical,15606,3409,21.8,1.09
+purpose,moving,9520,2229,23.4,1.17
+purpose,other,78263,16501,21.1,1.06
+purpose,renewable_energy,936,222,23.7,1.19
+purpose,small_business,15575,4650,29.9,1.49
+purpose,vacation,9083,1743,19.2,0.96
+purpose,wedding,2350,292,12.4,0.62
+home ownership,MORTGAGE,666594,114835,17.2,0.86
+home ownership,OTHER,517,102,19.7,0.99
+home ownership,OWN,144985,29904,20.6,1.03
+home ownership,RENT,535585,124408,23.2,1.16
+employment length,< 1 year,108517,22289,20.5,1.03
+employment length,1 year,88841,18289,20.6,1.03
+employment length,2 years,122091,24197,19.8,0.99
+employment length,3 years,107862,21558,20.0,1.0
+employment length,4 years,80761,15956,19.8,0.99
+employment length,5 years,84326,16545,19.6,0.98
+employment length,6 years,62877,12183,19.4,0.97
+employment length,7 years,59724,11652,19.5,0.98
+employment length,8 years,60808,12132,20.0,1.0
+employment length,9 years,51019,10158,19.9,1.0
+employment length,10+ years,442667,83213,18.8,0.94
+employment length,NI,78188,21077,27.0,1.35
+state,AK,3194,628,19.7,0.98
+state,AL,16640,3933,23.6,1.18
+state,AR,10058,2425,24.1,1.21
+state,AZ,32733,6432,19.6,0.98
+state,CA,196805,38633,19.6,0.98
+state,CO,29722,4618,15.5,0.78
+state,CT,19787,3440,17.4,0.87
+state,DC,3485,461,13.2,0.66
+state,DE,3804,750,19.7,0.99
+state,FL,95815,20599,21.5,1.08
+state,GA,43470,8011,18.4,0.92
+state,HI,6763,1367,20.2,1.01
+state,ID,1689,318,18.8,0.94
+state,IL,51858,9394,18.1,0.91
+state,IN,21720,4656,21.4,1.07
+state,KS,11262,1887,16.8,0.84
+state,KY,12868,2703,21.0,1.05
+state,LA,15520,3596,23.2,1.16
+state,MA,31066,5926,19.1,0.95
+state,MD,31295,6677,21.3,1.07
+state,ME,2029,281,13.8,0.69
+state,MI,35302,7169,20.3,1.02
+state,MN,24001,4742,19.8,0.99
+state,MO,21328,4551,21.3,1.07
+state,MS,6593,1722,26.1,1.31
+state,MT,3831,650,17.0,0.85
+state,NC,37812,7861,20.8,1.04
+state,ND,1601,328,20.5,1.03
+state,NE,3591,905,25.2,1.26
+state,NH,6463,942,14.6,0.73
+state,NJ,48576,10258,21.1,1.06
+state,NM,7374,1576,21.4,1.07
+state,NV,20282,4457,22.0,1.1
+state,NY,110075,24267,22.0,1.1
+state,OH,43935,9015,20.5,1.03
+state,OK,12291,2884,23.5,1.17
+state,OR,16415,2366,14.4,0.72
+state,PA,45640,9502,20.8,1.04
+state,RI,5879,1051,17.9,0.89
+state,SC,16004,2606,16.3,0.82
+state,SD,2770,591,21.3,1.07
+state,TN,20393,4368,21.4,1.07
+state,TX,110307,21881,19.8,0.99
+state,UT,10045,1717,17.1,0.86
+state,VA,38107,7602,19.9,1.0
+state,VT,2655,371,14.0,0.7
+state,WA,29218,4613,15.8,0.79
+state,WI,17782,3267,18.4,0.92
+state,WV,4888,759,15.5,0.78
+state,WY,2926,490,16.7,0.84
+issue year,2007,599,158,26.4,1.32
+issue year,2008,2393,496,20.7,1.04
+issue year,2009,5281,723,13.7,0.69
+issue year,2010,12537,1757,14.0,0.7
+issue year,2011,21721,3297,15.2,0.76
+issue year,2012,53367,8644,16.2,0.81
+issue year,2013,134804,21024,15.6,0.78
+issue year,2014,223102,41161,18.4,0.92
+issue year,2015,375543,75802,20.2,1.01
+issue year,2016,293057,68229,23.3,1.17
+issue year,2017,169117,39112,23.1,1.16
+issue year,2018,56160,8846,15.8,0.79
