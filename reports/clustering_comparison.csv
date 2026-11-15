@@ -1,0 +1,4 @@
+algorithm,settings,clusters,noise_%,smallest_cluster_%,largest_cluster_%,silhouette,agreement_with_kmeans_%,labels_all_loans
+K-Means,"k = 4, 10 starts, fitted on all loans",4,0.0,12.9,32.99,0.161,100.0,yes
+Hierarchical (Ward),"tree cut at 4 clusters, 10,000-loan sample",4,0.0,13.57,33.32,0.094,73.35,no (memory grows with the square of n)
+DBSCAN,"eps = 1.46, min_samples = 14, 10,000-loan sample",1,0.77,99.23,99.23,,,no

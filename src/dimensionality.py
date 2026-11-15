@@ -50,7 +50,7 @@ def map_labels(sample_loans):
     })
 
 
-def _scatter_groups(ax, coords, labels, colors, title):
+def scatter_groups(ax, coords, labels, colors, title):
     """Draw one scatter layer per group, in the order of `colors`."""
     for name, color in colors.items():
         mask = labels == name
@@ -68,10 +68,10 @@ def _scatter_groups(ax, coords, labels, colors, title):
 
 def plot_map_panels(axes, coords, labels, method):
     """Three views of the same 2-D map: by home ownership, purpose, FICO."""
-    _scatter_groups(axes[0], coords, labels["home"].to_numpy(), HOME_COLORS,
-                    f"{method}: home ownership")
-    _scatter_groups(axes[1], coords, labels["purpose"].to_numpy(),
-                    PURPOSE_COLORS, f"{method}: loan purpose")
-    _scatter_groups(axes[2], coords, labels["fico"].to_numpy(),
-                    dict(zip(FICO_LABELS, FICO_RAMP)),
-                    f"{method}: FICO band (light = low, dark = high)")
+    scatter_groups(axes[0], coords, labels["home"].to_numpy(), HOME_COLORS,
+                   f"{method}: home ownership")
+    scatter_groups(axes[1], coords, labels["purpose"].to_numpy(),
+                   PURPOSE_COLORS, f"{method}: loan purpose")
+    scatter_groups(axes[2], coords, labels["fico"].to_numpy(),
+                   dict(zip(FICO_LABELS, FICO_RAMP)),
+                   f"{method}: FICO band (light = low, dark = high)")

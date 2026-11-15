@@ -27,6 +27,11 @@ CLEANING_LOG_FILE = REPORTS_DIR / "cleaning_log.csv"
 FEATURE_PIPELINE_FILE = MODELS_DIR / "feature_pipeline.pkl"
 PCA_FEATURES_FILE = PROCESSED_DATA_DIR / "features_pca.npy"
 MAP_SAMPLE_FILE = PROCESSED_DATA_DIR / "map_sample.pkl"
+KMEANS_MODEL_FILE = MODELS_DIR / "kmeans_segments.pkl"
+SEGMENTS_FILE = PROCESSED_DATA_DIR / "segments.pkl"
+CLUSTER_SAMPLE_FILE = PROCESSED_DATA_DIR / "cluster_sample.pkl"
+SEGMENT_PROFILES_FILE = REPORTS_DIR / "segment_profiles.csv"
+CLUSTER_COMPARISON_FILE = REPORTS_DIR / "clustering_comparison.csv"
 
 # Reproducibility: one seed for every random step
 # (sampling, K-Means, t-SNE, UMAP).

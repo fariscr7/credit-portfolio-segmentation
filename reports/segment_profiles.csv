@@ -1,0 +1,5 @@
+segment,name,loans,share_%,median_income,median_loan,mean_fico,median_dti,mean_emp_years,emp_unknown_%,mortgage_%,rent_%,own_%,debt_consolidation_%,credit_card_%,home_%,personal_other_%,small_business_%
+1,Short-tenure renters,443419,32.9,48576.0,9600.0,686.73,18.12,2.42,7.84,28.27,60.7,10.99,56.91,23.47,4.56,13.99,1.07
+2,"Long-tenure, higher DTI",434783,32.26,60139.0,10650.0,686.41,19.45,9.22,4.88,55.55,33.3,11.12,59.61,20.58,7.23,11.77,0.81
+3,"Prime credit, low DTI",171515,12.73,70000.0,12000.0,758.42,13.59,6.07,7.47,58.52,29.12,12.3,47.89,19.33,12.34,18.63,1.81
+4,"High income, large loans",297964,22.11,109000.0,25000.0,697.61,16.73,6.25,3.15,66.9,24.07,9.0,62.94,23.1,7.43,5.11,1.42
