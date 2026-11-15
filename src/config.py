@@ -24,6 +24,9 @@ RAW_DATA_FILE = RAW_DATA_DIR / "loans_granting_model_dataset.csv"
 CLEAN_DATA_FILE = PROCESSED_DATA_DIR / "loans_clean.pkl"
 DATA_DICTIONARY_FILE = REPORTS_DIR / "data_dictionary.csv"
 CLEANING_LOG_FILE = REPORTS_DIR / "cleaning_log.csv"
+FEATURE_PIPELINE_FILE = MODELS_DIR / "feature_pipeline.pkl"
+PCA_FEATURES_FILE = PROCESSED_DATA_DIR / "features_pca.npy"
+MAP_SAMPLE_FILE = PROCESSED_DATA_DIR / "map_sample.pkl"
 
 # Reproducibility: one seed for every random step
 # (sampling, K-Means, t-SNE, UMAP).
