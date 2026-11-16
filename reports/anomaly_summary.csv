@@ -1,0 +1,8 @@
+flag,loans,share_%,default_rate_%,lift
+density_based,10731,0.796,13.689,0.685
+very_high_income,1351,0.1,12.361,0.619
+very_low_income,1364,0.101,26.173,1.31
+loan_over_half_income,2923,0.217,32.98,1.651
+dti_over_50,2742,0.203,28.811,1.442
+dti_code_999,38,0.003,23.684,1.185
+any_feature_rule,8369,0.621,27.172,1.36

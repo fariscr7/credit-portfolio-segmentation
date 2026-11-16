@@ -32,6 +32,10 @@ SEGMENTS_FILE = PROCESSED_DATA_DIR / "segments.pkl"
 CLUSTER_SAMPLE_FILE = PROCESSED_DATA_DIR / "cluster_sample.pkl"
 SEGMENT_PROFILES_FILE = REPORTS_DIR / "segment_profiles.csv"
 CLUSTER_COMPARISON_FILE = REPORTS_DIR / "clustering_comparison.csv"
+EDA_RATES_FILE = REPORTS_DIR / "eda_default_rates.csv"
+SEGMENT_DEFAULT_RATES_FILE = REPORTS_DIR / "segment_default_rates.csv"
+ANOMALY_SUMMARY_FILE = REPORTS_DIR / "anomaly_summary.csv"
+ANOMALIES_FILE = PROCESSED_DATA_DIR / "anomalies.pkl"
 
 # Reproducibility: one seed for every random step
 # (sampling, K-Means, t-SNE, UMAP).

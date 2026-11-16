@@ -1,0 +1,5 @@
+segment,name,loans,defaults,default_rate,lift,ci_low,ci_high
+1,Short-tenure renters,443419,98311,22.2,1.11,22.05,22.29
+2,"Long-tenure, higher DTI",434783,90719,20.9,1.04,20.74,20.99
+3,"Prime credit, low DTI",171515,16213,9.5,0.47,9.31,9.59
+4,"High income, large loans",297964,64006,21.5,1.08,21.33,21.63
